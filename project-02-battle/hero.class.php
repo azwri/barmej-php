@@ -2,6 +2,7 @@
 include_once("./battle.calss.php");
 include_once("./enemy.class.php");
 
+
 class Hero extends Person {
 
     function __construct($name, $helath, $power) {
